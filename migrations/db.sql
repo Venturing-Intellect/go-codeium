@@ -1,0 +1,5 @@
+CREATE TABLE feedback (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL,
+    feedback TEXT NOT NULL
+);
